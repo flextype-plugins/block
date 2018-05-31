@@ -1,0 +1,13 @@
+name: Block
+version: 1.0.0
+description: "Block plugin provides a basic way to work with content blocks marked up using Markdown and regular HTML"
+author:
+  name: Sergey Romanenko
+  email: awilum@yandex.ru
+  url: http://flextype.org
+homepage: https://github.com/flextype-plugins/block
+bugs: https://github.com/flextype-plugins/block/issues
+license: MIT
+
+# Plugin settings
+enabled: true
