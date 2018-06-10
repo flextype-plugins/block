@@ -3,7 +3,7 @@
 ![Flextype](https://img.shields.io/badge/Flextype-0.x-green.svg?style=flat-square)
 ![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
 
-Block plugin provides a basic way to work with content blocks marked up using Markdown and regular HTML and saved with `.md` extension in the folder `/site/blocks/`
+Block plugin provides a basic way to work with content blocks marked up using regular HTML + Shortcodes and saved with `.html` extension in the folder `/site/blocks/`
 
 ## Installation
 1. Unzip plugin to the folder `/site/plugins/`

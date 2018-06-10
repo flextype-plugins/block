@@ -39,7 +39,7 @@ class Block
      */
     public static function get($block_name, $raw = false) : string
     {
-        $block_path = PATH['site'] . '/blocks/' . $block_name . '.md';
+        $block_path = PATH['site'] . '/blocks/' . $block_name . '.html';
 
         // Block cache id
         $block_cache_id = '';
