@@ -1,6 +1,6 @@
 # Block Plugin for [Flextype](http://flextype.org/)
-![version](https://img.shields.io/badge/version-1.1.1-brightgreen.svg?style=flat-square)
-![Flextype](https://img.shields.io/badge/Flextype-0.7.0-green.svg?style=flat-square)
+![version](https://img.shields.io/badge/version-1.1.2-brightgreen.svg?style=flat-square)
+![Flextype](https://img.shields.io/badge/Flextype-0.8.3-green.svg?style=flat-square)
 ![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
 
 Block plugin provides a basic way to work with content blocks marked up using regular HTML + Shortcodes and saved with `.html` extension in the folder `/site/blocks/`
@@ -23,7 +23,7 @@ Define Flextype namespace in the template if it is not defined yet.
 
 Display block content
 ```
-<?php echo Block::get('block-name'); ?>
+<?= Block::get('block-name') ?>
 ```
 
 ## Settings

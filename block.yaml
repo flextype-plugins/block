@@ -1,5 +1,5 @@
 name: Block
-version: 1.1.1
+version: 1.1.2
 description: "Block plugin provides a basic way to work with content blocks marked up using Markdown and regular HTML"
 author:
   name: Sergey Romanenko

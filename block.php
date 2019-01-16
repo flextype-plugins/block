@@ -20,7 +20,7 @@ use Flextype\Component\{Event\Event, Filesystem\Filesystem};
 Event::addListener('onShortcodesInitialized', function () {
 
     // Shortcode: [block name=block-name]
-    Content::shortcode()->addHandler('block', function(ShortcodeInterface $s) {
+    Entries::shortcode()->addHandler('block', function(ShortcodeInterface $s) {
         return Block::get($s->getParameter('name'), (($s->getParameter('raw') === 'true') ? true : false));
     });
 });
@@ -56,7 +56,7 @@ class Block
                 $content = Filesystem::getFileContent($block_path);
 
                 if ($raw === false) {
-                    $content = Content::processContent($content);
+                    $content = Entries::processContent($content);
                 }
 
                 Cache::save($block_cache_id, $content);
